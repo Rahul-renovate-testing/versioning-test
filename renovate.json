@@ -1,0 +1,12 @@
+{
+  "packageRules": [
+    {
+      "matchPackageNames": ["xmldoc"],
+      "versioning": "^0\\.(?<major>\\d+)\\.(<minor>\\d+)$"
+    },
+    {
+      "matchPackageNames": ["xmldoc"],
+      "allowedVersions": "<1"
+    }
+  ]
+}
